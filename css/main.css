@@ -83,6 +83,14 @@ Primary use:
   text-transform: uppercase;
 }
 
+.m1-txt3 {
+  font-family: Lato-Regular;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
 .m1-txt2 {
   font-family: PlayfairDisplay-Italic;
   font-size: 18px;
