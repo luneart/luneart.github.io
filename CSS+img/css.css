@@ -1,0 +1,99 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("bg/vineyard-wine-grapes-sunlight-twilight-dusk-sunset-shadows.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+.add-logo-ct {
+  padding: 1px;
+  padding: 8px 16px;
+  float: left;
+  width: auto;
+  height: 60px;
+  border: none;
+  display: block;
+  outline: 0;
+}
+.add-logo {
+  content: url("logo-tb.svg");
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 12px 16px;
+  height: 60px;
+}
+
+.fa-language {
+  margin: 0;
+  font-size:36px;
+  color:red;
+  pointer-events: none;
+}
+
+.dropdown-content-top {
+  margin: 55px 0 0 0;
+}
+.dropdown-content {
+  display: none;
+  border: solid;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 60px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+.fa-caret-down {
+  pointer-events: none;
+}
+
+.umbra {
+  text-shadow: 0.05em 0.05em 0.1em black
+}
+
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
+@media (max-width:1000px){.hide-medium{display:none!important}}
+@media (max-width:700px){.hide-medium2{display:none!important}}
+@media (max-width:660px){.hide-small{display:none!important}}
