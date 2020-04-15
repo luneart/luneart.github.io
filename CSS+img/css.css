@@ -93,7 +93,26 @@ body, html {
 .mySlides {display:none}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-badge {height:13px;width:13px;padding:0}
+.w3-badge-mini {height:7px;width:7px;padding:0}
 
-@media (max-width:1000px){.hide-medium{display:none!important}}
-@media (max-width:700px){.hide-medium2{display:none!important}}
-@media (max-width:660px){.hide-small{display:none!important}}
+.robust:before{
+	content:url("iconRobustDesign.svg");
+	display:inline-block;
+	padding:0;margin:-10px;
+}
+.accurate:before{
+	content:url("iconCalibration-mark.svg");
+	display:inline-block;
+	padding:0;margin:0;
+}
+.puzzle:before{
+	content:url("iconPuzzle.svg");
+	font-size:inherit;text-rendering:auto;
+	display:inline-block;
+	padding:0;margin:-10px;
+}
+
+@media (max-width:1000px) and (min-width:601px){.hide-medium{display:none!important}}
+@media (max-width:700px) and (min-width:601px){.hide-medium2{display:none!important}}
+@media (max-width:1000px) and (min-width:661px){.hide-medium3{display:none!important}}
+@media (max-width:660px) and (min-width:601px){.hide-small{display:none!important}}
